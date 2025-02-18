@@ -11,10 +11,110 @@ body{
     background-color: var(--color-5);
 }
 
+/* *************** Header *************** */
+header{
+    /* background-color: red; */
+    margin-right: 19px;
+    margin-left: 19px;
+    margin-top: 5px;
+}
 
-.h1__titulo{
-    color: white;
-    font-size: 2.5rem;
-    letter-spacing: 30px;
-    text-transform: uppercase;
+header h1{
+    /* background-color: violet; */
+    width: 264px;
+    font-family: "Inter_28pt-Bold";
+    font-size: 40px;
+    color:var(--color-1);
+}
+
+header p{
+    /* background-color: blue; */
+    width: 342px;
+    margin-top:9px;
+    font-family: "Inter_18pt-Bold";
+    font-size: 20px;
+    color: var(--color-4);
+
+}
+/* ************************************* */
+/* *************** Main *************** */
+/* main{
+    background-color:red;
+} */
+
+.section__images{
+    /* background-color: blue; */
+    height: 279px;
+    position: relative;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+/* .section__images img{
+    background-color: violet;
+} */
+
+.section__images img:first-child{
+    position: absolute;
+    left: -50%;
+}
+
+.section__images img:last-child{
+    position: absolute;
+    right: -50%;
+    bottom: 0;
+
+}
+
+.section_form{
+    /* background-color: bisque; */
+    margin-top: 27px;
+    position: relative;
+}
+
+.section_form > a{
+    position: relative;
+    inset: 0;
+    margin:auto;
+    display: block;
+    background-color: var(--color-3);
+    width: 284px;
+    height: 59px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 17px;
+    font-family: Inter_18pt-Bold;
+    font-size: 20px;
+    color: var(--color-1);
+    text-decoration: none;
+
+}
+
+.section_form p, 
+.section_form p a{
+    text-decoration: none;
+    color:var(--color-1);
+    margin-top: 8px;
+    text-align: center;
+    font-family: "Inter_18pt-Bold";
+    font-size: 15px;
+}
+
+.section_form p a{
+    color: var(--color-3);
+}
+
+/* ************************************* */
+/* *************** Footer *************** */
+footer{
+    /* background-color: red; */
+    height: 425px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
