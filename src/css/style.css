@@ -47,6 +47,7 @@ header p{
     height: 279px;
     position: relative;
     margin-top: 25px;
+    overflow: hidden;
 }
 
 /* .section__images img{
@@ -107,12 +108,13 @@ header p{
 /* *************** Footer *************** */
 footer{
     /* background-color: red; */
-    height: 224px;
+    height: 425px;
     position: relative;
     overflow: hidden;
 }
 
 footer img{
     position: absolute;
-    bottom: 8px;
+    bottom: 0px;
+    width: 100%;
 }
